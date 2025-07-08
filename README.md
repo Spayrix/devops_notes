@@ -1,2 +1,2 @@
-# devops_notes
-Git öğrenmek için oluşturuldu
+# DevOps Notları
+Bu depo, Git ve DevOps öğrenme sürecimde oluşturduğum notları ve scriptleri içerir.
