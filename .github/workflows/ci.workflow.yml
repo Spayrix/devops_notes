@@ -1,0 +1,18 @@
+name: Basit CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo klonlanıyor
+        uses: actions/checkout@v3
+
+      - name: Merhaba mesajı
+        run: echo "Merhaba DevOps! GitHub Actions çalışıyor 🚀"
